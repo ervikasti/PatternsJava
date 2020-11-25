@@ -1,0 +1,35 @@
+class A8P14 
+{
+	public static void main(String[] args) 
+	{
+		int n = 5;
+		for (int i = 0;i<n ;i++ )
+		{
+			char x='a';
+			for (int j = 0;j<n ;j++ )
+			{
+				if(i+j>=n-1)
+				{
+					System.out.print((char)(x++));
+				}
+				else
+				{
+					System.out.print(" ");
+				}
+			}
+			for (int k = 0 ;k<n ;k++ )
+			{
+				if(i>=k+1)
+				{
+					System.out.print((char)((x--)-2));
+				}
+				else
+				{
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+		}
+	}
+}
+ 
