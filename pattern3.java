@@ -1,6 +1,6 @@
 /*
-*.
-***
+  *
+ ***
 *****
 using single loop statement
 */
